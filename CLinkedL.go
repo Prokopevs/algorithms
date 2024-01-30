@@ -10,10 +10,10 @@ type Node struct {
 	next *Node
 }
 
-func main() {
-
 	var head *Node = new(Node)
 	var tail *Node = new(Node)
+
+func main() {
 
 	head.data = "A"
 	head.next = nil
@@ -29,6 +29,8 @@ func main() {
 	C.next = tail
 
 	p := head
+
+	add("E", 2)
 	for {
 		fmt.Println(p.data)
 		p = p.next
@@ -38,5 +40,23 @@ func main() {
 			break
 		}
 	}
+}
+
+func add(data string, index int) {
+	p := head
+	i := 0
+
+	E := &Node{data, nil}
+
+	for {
+		if p.next == nil || i+1 >= index {
+			break
+		}
+		p = p.next
+		i++
+	}
+
+	E.next = p.next
+	p.next = E
 }
 
