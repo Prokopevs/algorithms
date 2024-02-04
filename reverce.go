@@ -1,8 +1,8 @@
-package main
+// package main
 
-import (
-	"fmt"
-)
+// import (
+// 	"fmt"
+// )
 
 // func main () {
 // 	slice := []int{1, 3, 4, 9, 4, 7, 8}
