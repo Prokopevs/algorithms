@@ -1,0 +1,7 @@
+https://www.yahoo.com/foobar
+https://stackoverflow.com/foobar
+https://blog.iddqd.uk/
+https://google.com/404error
+https://ya.ru/
+https://github.com/foo/bar
+https://stackoverflow.com/
